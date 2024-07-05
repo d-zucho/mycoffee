@@ -19,6 +19,12 @@ const config = {
     },
     extend: {
       colors: {
+        cyan: '#0e8784',
+        greyblue: '#333d4b',
+        peach: '#fdd6ba',
+        cream: '#fefcf7',
+        mygray: '#83888f',
+        'btn-hover': '#66d2cf',
         border: 'hsl(var(--border))',
         input: 'hsl(var(--input))',
         ring: 'hsl(var(--ring))',
@@ -54,7 +60,6 @@ const config = {
         },
       },
       fontSize: {
-        'header-hero': 'var(--header-hero)',
         'header-1': 'var(--header-1)',
         'header-2': 'var(--header-2)',
         'header-3': 'var(--header-3)',
