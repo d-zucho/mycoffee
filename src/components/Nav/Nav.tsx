@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import MaxWidthWrapper from '../MaxWidthWrapper'
 import DesktopNav from './DesktopNav'
+import MobileNav from './MobileNav'
 
 const Nav = () => {
   return (
@@ -17,6 +18,7 @@ const Nav = () => {
           </div>
         </div>
         <DesktopNav />
+        <MobileNav />
       </MaxWidthWrapper>
     </header>
   )
