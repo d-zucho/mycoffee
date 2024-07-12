@@ -1,3 +1,4 @@
+import { heroDesktopImg } from '@/lib'
 import type { Config } from 'tailwindcss'
 
 const config = {
@@ -59,7 +60,13 @@ const config = {
           foreground: 'hsl(var(--card-foreground))',
         },
       },
+      // add fraunces to a utility class
+      fontFamily: {
+        fraunces: ['Fraunces', 'serif'],
+      },
+
       fontSize: {
+        'header-hero': 'var(--header-hero)',
         'header-1': 'var(--header-1)',
         'header-2': 'var(--header-2)',
         'header-3': 'var(--header-3)',
@@ -70,6 +77,12 @@ const config = {
         md: 'calc(var(--radius) - 2px)',
         sm: 'calc(var(--radius) - 4px)',
       },
+      backgroundImage: {
+        hero_desktop: "url('/assets/home/desktop/image-hero-coffeepress.jpg')",
+        hero_mobile: "url('/assets/home/mobile/image-hero-coffeepress.jpg')",
+        hero_tablet: "url('/assets/home/tablet/image-hero-coffeepress.jpg')",
+      },
+
       keyframes: {
         'accordion-down': {
           from: { height: '0' },

@@ -3,29 +3,33 @@ import Link from 'next/link'
 import { buttonVariants } from '../ui/button'
 import { cn } from '@/lib/utils'
 import { Menu } from 'lucide-react'
-import { Sheet, SheetTrigger } from '../ui/sheet'
+import { Sheet, SheetContent, SheetTrigger } from '../ui/sheet'
 
-// MobileNavProps should be a type in typescript
+type MobileNavProps = {
+  className?: string
+}
 
-const MobileNav = () => {
+const MobileNav = ({ className }: MobileNavProps) => {
   return (
-    <div>
+    <div className={cn(className, 'md:hidden')}>
       <Sheet>
         <SheetTrigger>
           <Menu width={32} height={32} />
         </SheetTrigger>
+        <SheetContent>
+          <nav className='flex flex-col gap-8 text text-mygray'>
+            {NAV_LINKS.map((link, index) => (
+              <Link
+                key={index}
+                href={'/'}
+                className={cn(buttonVariants({ variant: 'ghost' }), 'flex')}
+              >
+                {link.label}
+              </Link>
+            ))}
+          </nav>
+        </SheetContent>
       </Sheet>
-      <nav className='flex flex-col gap-8 text text-mygray'>
-        {NAV_LINKS.map((link, index) => (
-          <Link
-            key={index}
-            href={'/'}
-            className={cn(buttonVariants({ variant: 'ghost' }), 'flex')}
-          >
-            {link.label}
-          </Link>
-        ))}
-      </nav>
     </div>
   )
 }
