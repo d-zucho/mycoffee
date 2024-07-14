@@ -41,4 +41,10 @@ export const collection_products: TProduct[] = [
     description:
       'Ethiopian hand-harvested blend densely packed with vibrant fruit notes.',
   },
+  {
+    image: granEspressoImg,
+    name: 'Gran Espresso',
+    description:
+      'Light and flavorful blend with cocoa and black pepper for an intense experience.',
+  },
 ]
