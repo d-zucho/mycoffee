@@ -72,6 +72,9 @@ const config = {
         'header-3': 'var(--header-3)',
         'header-4': 'var(--header-4)',
       },
+      screens: {
+        xs: '416px',
+      },
       borderRadius: {
         lg: 'var(--radius)',
         md: 'calc(var(--radius) - 2px)',

@@ -22,7 +22,7 @@ const Hero = () => {
               expertly curated artisan coffees from our best roasters delivered
               directly to your door, at your schedule.
             </p>
-            <Button className='bg-cyan rounded-md font-black max-w-sm font-fraunces hover:bg-btn-hover transition-all duration-300'>
+            <Button className='bg-cyan rounded-md font-black text-lg max-w-sm font-fraunces hover:bg-btn-hover transition-all duration-300'>
               {' '}
               Create your plan
             </Button>
