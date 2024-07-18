@@ -31,8 +31,8 @@ function CollectionItem({
         />
       </div>
       <div className='space-y-1 xl:space-y-2'>
-        <h3 className='text-header-3 font-black'>{name}</h3>
-        <p className='max-w-xs xl:px-4'>{description}</p>
+        <h3 className='text-header-3 font-black text-greyblue'>{name}</h3>
+        <p className='max-w-xs xl:px-4 text-greyblue'>{description}</p>
       </div>
     </div>
   )

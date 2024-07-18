@@ -10,3 +10,9 @@ export type TProduct = {
   name: string
   description: string
 }
+
+export type TWhyFact = {
+  title: string
+  description: string
+  image: string
+}

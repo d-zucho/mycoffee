@@ -1,5 +1,5 @@
 import { dancheImg, granEspressoImg, piccolloImg, planaltoImg } from '.'
-import { TNavLink, TProduct } from './types'
+import { TNavLink, TProduct, TWhyFact } from './types'
 
 export const NAV_LINKS: TNavLink[] = [
   {
@@ -40,5 +40,26 @@ export const collection_products: TProduct[] = [
     name: 'Danche',
     description:
       'Ethiopian hand-harvested blend densely packed with vibrant fruit notes.',
+  },
+]
+
+export const why_facts: TWhyFact[] = [
+  {
+    title: 'Best quality',
+    description:
+      'Discover an endless variety of the world’s best artisan coffee from each of our roasters.',
+    image: '/assets/home/desktop/icon-coffee-bean.svg',
+  },
+  {
+    title: 'Exclusive benefits',
+    description:
+      'Special offers and swag when you subscribe, including 30% off your first shipment.',
+    image: '/assets/home/desktop/icon-gift.svg',
+  },
+  {
+    title: 'Free shipping',
+    description:
+      'We cover the cost and coffee is delivered fast. Peak freshness: guaranteed.',
+    image: '/assets/home/desktop/icon-truck.svg',
   },
 ]
