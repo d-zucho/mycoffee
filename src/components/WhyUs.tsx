@@ -24,6 +24,7 @@ function WhyUs({ facts }: Props) {
             </p>
           </div>
 
+          {/* next */}
           {/* facts container */}
           <div>
             {facts.map((fact) => (
