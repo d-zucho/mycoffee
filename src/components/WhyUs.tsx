@@ -11,12 +11,12 @@ type Props = {
 
 function WhyUs({ facts }: Props) {
   return (
-    <section>
-      <MaxWidthWrapper className='text-cream'>
-        <div className='bg-greyblue rounded-xl h-[600px] p-20'>
+    <section className='relative pt-12'>
+      <MaxWidthWrapper className='text-cream relative'>
+        <div className='bg-greyblue rounded-xl  p-20 relative'>
           <div className='space-y-8 text-center'>
             <h2 className='text-header-2 font-black'>Why choose us?</h2>
-            <p className='max-w-md mx-auto'>
+            <p className='max-w-md mx-auto mt-10'>
               A large part of our role is choosing which particular coffees will
               be featured in our range. This means working closely with the best
               coffee growers to give you a more impactful experience on every
@@ -26,9 +26,9 @@ function WhyUs({ facts }: Props) {
 
           {/* next */}
           {/* facts container */}
-          <div>
-            {facts.map((fact) => (
-              <WhyFact key={fact.title} {...fact} />
+          <div className='p-10 grid w-full gap-5 grid-cols-1 lg:grid-cols-3 md:grid-rows-1 pt-20 md:mt-4'>
+            {facts.map((fact, index) => (
+              <WhyFact key={index} {...fact} />
             ))}
           </div>
         </div>
