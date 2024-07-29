@@ -4,6 +4,8 @@
 
 @layer base {
   :root {
+    --font-barlow: 'Barlow', sans-serif;
+    --font-fraunces: 'Fraunces', serif;
     --color-cyan: #0e8784;
     --color-greyblue: #333d4b;
     --color-peach: #fdd6ba;

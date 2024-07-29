@@ -16,3 +16,9 @@ export type TWhyFact = {
   description: string
   image: string
 }
+
+export type TStep = {
+  step: string
+  title: string
+  description: string
+}

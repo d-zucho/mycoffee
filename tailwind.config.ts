@@ -62,7 +62,8 @@ const config = {
       },
       // add fraunces to a utility class
       fontFamily: {
-        fraunces: ['Fraunces', 'serif'],
+        fraunces: 'var(--font-fraunces)',
+        barlow: 'var(--font-barlow)',
       },
 
       fontSize: {

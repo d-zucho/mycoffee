@@ -28,7 +28,7 @@ function WhyUs({ facts }: Props) {
           {/* facts container */}
           <div className='p-10 grid w-full gap-5 grid-cols-1 lg:grid-cols-3 md:grid-rows-1 pt-20 md:mt-4'>
             {facts.map((fact, index) => (
-              <WhyFact key={index} {...fact} />
+              <WhyFact key={index} index={index} {...fact} />
             ))}
           </div>
         </div>
