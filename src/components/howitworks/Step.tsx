@@ -12,7 +12,7 @@ const Step = ({ step, title, description, className }: Props) => {
     >
       {/* add step circle (first two) */}
 
-      <p className='border-2 border-cyan bg-white h-10 w-10 rounded-full absolute -left-5 lg:-top-[21px] lg:left-0' />
+      <div className='border-2 border-cyan bg-white h-10 w-10 rounded-full absolute -left-5 lg:-top-[21px] lg:left-0' />
 
       <h2 className='text-header-1 font-fraunces font-black text-peach '>
         {step}

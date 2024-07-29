@@ -25,7 +25,7 @@ const config = {
         peach: '#fdd6ba',
         cream: '#fefcf7',
         mygray: '#83888f',
-        'btn-hover': '#66d2cf',
+        btn_hover: '#66d2cf',
         border: 'hsl(var(--border))',
         input: 'hsl(var(--input))',
         ring: 'hsl(var(--ring))',

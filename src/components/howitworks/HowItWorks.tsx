@@ -1,6 +1,7 @@
 import { TStep } from '@/lib/types'
 import MaxWidthWrapper from '../MaxWidthWrapper'
 import Step from './Step'
+import { Button } from '../ui/button'
 
 interface HowItWorksProps {
   steps: TStep[]
@@ -29,6 +30,11 @@ function HowItWorks({ steps }: HowItWorksProps) {
               </>
             ))}
           </div>
+        </div>
+        <div className='flex justify-center lg:justify-start mt-16'>
+          <Button className='bg-cyan hover:bg-btn_hover font-fraunces'>
+            Create your plan
+          </Button>
         </div>
       </MaxWidthWrapper>
     </section>
