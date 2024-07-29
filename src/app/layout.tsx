@@ -3,6 +3,7 @@ import { Fraunces, Barlow } from 'next/font/google'
 import './globals.css'
 import Nav from '@/components/Nav/Nav'
 import { cn } from '@/lib/utils'
+import Footer from '@/components/Footer'
 
 const fraunces = Fraunces({
   subsets: ['latin'],
@@ -31,6 +32,7 @@ export default function RootLayout({
         <Nav />
 
         {children}
+        <Footer />
       </body>
     </html>
   )

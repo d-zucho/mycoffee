@@ -9,7 +9,7 @@ interface HowItWorksProps {
 
 function HowItWorks({ steps }: HowItWorksProps) {
   return (
-    <section className='pt-32'>
+    <section className='py-32'>
       <MaxWidthWrapper>
         <div>
           <h2 className='text-mygray text-header-3 font-black text-center pb-20'>

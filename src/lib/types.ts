@@ -22,3 +22,9 @@ export type TStep = {
   title: string
   description: string
 }
+
+export type TSocialLink = {
+  icon: string
+  href: string
+  label: string
+}

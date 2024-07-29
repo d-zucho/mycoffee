@@ -1,5 +1,16 @@
-import { dancheImg, granEspressoImg, piccolloImg, planaltoImg } from '.'
-import { TNavLink, TProduct, TStep, TWhyFact } from './types'
+import {
+  dancheImg,
+  facebookIcon,
+  granEspressoImg,
+  instagramIcon,
+  piccolloImg,
+  planaltoImg,
+  twitterIcon,
+} from '.'
+import { TNavLink, TProduct, TSocialLink, TStep, TWhyFact } from './types'
+import facebook from '/public/assets/shared/desktop/icon-facebook.svg'
+import instagram from '/public/assets/shared/desktop/icon-instagram.svg'
+import twitter from '/public/assets/shared/desktop/icon-twitter.svg'
 
 export const NAV_LINKS: TNavLink[] = [
   {
@@ -13,6 +24,24 @@ export const NAV_LINKS: TNavLink[] = [
   {
     href: '/create',
     label: 'Create Your Plan',
+  },
+]
+
+export const SOCIAL_LINKS: TSocialLink[] = [
+  {
+    href: 'https://www.facebook.com',
+    label: 'Facebook',
+    icon: '/assets/shared/desktop/icon-facebook.svg',
+  },
+  {
+    href: 'https://www.twitter.com',
+    label: 'Twitter',
+    icon: '/assets/shared/desktop/icon-twitter.svg',
+  },
+  {
+    href: 'https://www.instagram.com',
+    label: 'Instagram',
+    icon: '/assets/shared/desktop/icon-instagram.svg',
   },
 ]
 
