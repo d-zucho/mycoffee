@@ -85,6 +85,9 @@ const config = {
         hero_desktop: "url('/assets/home/desktop/image-hero-coffeepress.jpg')",
         hero_mobile: "url('/assets/home/mobile/image-hero-coffeepress.jpg')",
         hero_tablet: "url('/assets/home/tablet/image-hero-coffeepress.jpg')",
+        about_desktop: "url('/assets/about/desktop/image-hero-whitecup.jpg')",
+        about_mobile: "url('/assets/about/mobile/image-hero-whitecup.jpg')",
+        about_tablet: "url('/assets/about/tablet/image-hero-whitecup.jpg')",
       },
 
       keyframes: {

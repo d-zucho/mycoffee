@@ -15,7 +15,7 @@ const DesktopNav = ({ className }: DesktopNavProps) => {
         {NAV_LINKS.map((link, index) => (
           <Link
             key={index}
-            href={'/'}
+            href={link.href}
             className={cn(buttonVariants({ variant: 'ghost' }), 'flex')}
           >
             {link.label}

@@ -18,7 +18,7 @@ export const NAV_LINKS: TNavLink[] = [
     label: 'Home',
   },
   {
-    href: '/about',
+    href: '/aboutus',
     label: 'About Us',
   },
   {
