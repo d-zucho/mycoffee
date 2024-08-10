@@ -37,7 +37,7 @@ const Commitment = () => {
           </div>
 
           <div className='text-greyblue flex-1 text-center md:text-left space-y-5'>
-            <h2 className='text-header-4 md:text-header-3 text-center md:text-left pt-10 md:pt-0'>
+            <h2 className='text-header-3 md:text-header-2 text-center md:text-left pt-10 md:pt-0'>
               Our commitment
             </h2>
             <p className='max-w-lg md:max-w-md mx-auto md:mx-0'>

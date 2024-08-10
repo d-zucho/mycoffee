@@ -88,6 +88,9 @@ const config = {
         about_desktop: "url('/assets/about/desktop/image-hero-whitecup.jpg')",
         about_mobile: "url('/assets/about/mobile/image-hero-whitecup.jpg')",
         about_tablet: "url('/assets/about/tablet/image-hero-whitecup.jpg')",
+        aboutquality_desktop: "url('/assets/about/desktop/image-quality.jpg')",
+        aboutquality_mobile: "url('/assets/about/mobile/image-quality.jpg')",
+        aboutquality_tablet: "url('/assets/about/tablet/image-quality.jpg')",
       },
 
       keyframes: {
