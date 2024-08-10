@@ -12,7 +12,7 @@ const Quality = () => {
   return (
     <section className='w-full rounded-md mt-32 mb-20'>
       <MaxWidthWrapper>
-        <div className='bg-greyblue px-10 py-20 grid lg:grid-cols-2 lg:gap-5 relative'>
+        <div className='bg-greyblue px-10 py-20 grid lg:grid-cols-2 lg:gap-5 relative rounded-lg'>
           <div className='flex flex-col gap-5 text-center lg:text-left max-w-prose'>
             <h2 className='text-header-3 md:text-header-2 text-white'>
               Uncompromising quality

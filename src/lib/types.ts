@@ -28,3 +28,11 @@ export type TSocialLink = {
   href: string
   label: string
 }
+
+export type THeadquarter = {
+  icon: string
+  country: string
+  city: string
+  address: string
+  phone: string
+}

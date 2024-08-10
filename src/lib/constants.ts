@@ -7,7 +7,14 @@ import {
   planaltoImg,
   twitterIcon,
 } from '.'
-import { TNavLink, TProduct, TSocialLink, TStep, TWhyFact } from './types'
+import {
+  THeadquarter,
+  TNavLink,
+  TProduct,
+  TSocialLink,
+  TStep,
+  TWhyFact,
+} from './types'
 import facebook from '/public/assets/shared/desktop/icon-facebook.svg'
 import instagram from '/public/assets/shared/desktop/icon-instagram.svg'
 import twitter from '/public/assets/shared/desktop/icon-twitter.svg'
@@ -111,5 +118,29 @@ export const steps: TStep[] = [
     title: 'Receive and enjoy!',
     description:
       'We ship your package within 48 hours, freshly roasted. Sit back and enjoy award-winning world-class coffees curated to provide a distinct tasting experience.',
+  },
+]
+
+export const headquarters: THeadquarter[] = [
+  {
+    icon: '/assets/about/desktop/illustration-australia.svg',
+    country: 'Australia',
+    city: 'Melbourne',
+    address: '36 Swanston Street',
+    phone: '+61 4 9928 3629',
+  },
+  {
+    icon: '/assets/about/desktop/illustration-canada.svg',
+    country: 'Canada',
+    city: 'Toronto',
+    address: '1528 Eglinton Avenue',
+    phone: '+1 416 485 2997',
+  },
+  {
+    icon: '/assets/about/desktop/illustration-uk.svg',
+    country: 'United Kingdom',
+    city: 'London',
+    address: '96 Old Street',
+    phone: '+44 20 3970 1287',
   },
 ]
