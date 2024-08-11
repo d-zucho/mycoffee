@@ -22,6 +22,7 @@ function Collection({ coffees }: Props) {
               description={coffee.description}
               image={coffee.image}
               className=''
+              key={coffee.name}
             />
           ))}
         </div>

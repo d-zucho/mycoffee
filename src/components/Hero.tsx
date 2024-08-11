@@ -2,10 +2,6 @@ import { heroDesktopImg, heroMobileImg, heroTabletImg } from '@/lib'
 import MaxWidthWrapper from './MaxWidthWrapper'
 import { Button } from './ui/button'
 
-const desktop = '/desktop/image-hero-coffeepress.jpg'
-const tablet = '/tablet/image-hero-coffeepress.jpg'
-const mobile = '/mobile/image-hero-coffeepress.jpg'
-
 const Hero = () => {
   return (
     <section id='hero' className='relative'>
@@ -22,7 +18,7 @@ const Hero = () => {
               expertly curated artisan coffees from our best roasters delivered
               directly to your door, at your schedule.
             </p>
-            <Button className='bg-cyan rounded-md font-black text-lg max-w-sm font-fraunces hover:bg-btn-hover transition-all duration-300'>
+            <Button className='bg-cyan rounded-md font-black text-lg max-w-sm font-fraunces hover:bg-buttonhover transition-all duration-300'>
               {' '}
               Create your plan
             </Button>

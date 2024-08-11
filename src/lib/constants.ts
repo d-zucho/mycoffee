@@ -29,7 +29,7 @@ export const NAV_LINKS: TNavLink[] = [
     label: 'About Us',
   },
   {
-    href: '/create',
+    href: '/subscribe',
     label: 'Create Your Plan',
   },
 ]

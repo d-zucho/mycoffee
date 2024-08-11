@@ -25,7 +25,7 @@ const config = {
         peach: '#fdd6ba',
         cream: '#fefcf7',
         mygray: '#83888f',
-        btn_hover: '#66d2cf',
+        buttonhover: '#66d2cf',
         border: 'hsl(var(--border))',
         input: 'hsl(var(--input))',
         ring: 'hsl(var(--ring))',
@@ -91,6 +91,9 @@ const config = {
         aboutquality_desktop: "url('/assets/about/desktop/image-quality.jpg')",
         aboutquality_mobile: "url('/assets/about/mobile/image-quality.jpg')",
         aboutquality_tablet: "url('/assets/about/tablet/image-quality.jpg')",
+        planhero_mobile: "url('/assets/plan/mobile/image-hero-blackcup.jpg')",
+        planhero_tablet: "url('/assets/plan/tablet/image-hero-blackcup.jpg')",
+        planhero_desktop: "url('/assets/plan/desktop/image-hero-blackcup.jpg')",
       },
 
       keyframes: {

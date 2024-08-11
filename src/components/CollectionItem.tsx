@@ -16,7 +16,6 @@ function CollectionItem({
 }: CollectionItemProps) {
   return (
     <div
-      key={name}
       className={cn(
         'flex flex-col text-center md:text-left md:flex-row xl:flex-col xl:text-center md:items-center md:h-full',
         className
