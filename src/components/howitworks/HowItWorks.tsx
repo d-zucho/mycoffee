@@ -2,12 +2,13 @@ import { TStep } from '@/lib/types'
 import MaxWidthWrapper from '../MaxWidthWrapper'
 import Step from './Step'
 import { Button } from '../ui/button'
+import { steps } from '@/lib/constants'
 
 interface HowItWorksProps {
-  steps: TStep[]
+  title?: string
 }
 
-function HowItWorks({ steps }: HowItWorksProps) {
+function HowItWorks({ title }: HowItWorksProps) {
   return (
     <section className='py-32'>
       <MaxWidthWrapper>

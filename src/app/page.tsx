@@ -12,7 +12,7 @@ export default function Home() {
       <Hero />
       <Collection coffees={collection_products} />
       <WhyUs facts={why_facts} />
-      <HowItWorks steps={steps} />
+      <HowItWorks />
     </main>
   )
 }

@@ -5,7 +5,7 @@ const PlanHero = () => {
     'Build a subscription plan that best fits your needs. We offer an assortment of the best artisan coffees from around the globe delivered fresh to your door.'
 
   return (
-    <section id='plan-hero' className='relative'>
+    <section id='plan-hero' className='relative mb-28'>
       <MaxWidthWrapper>
         <div
           className={`bg-planhero_mobile md:bg-planhero_tablet lg:bg-planhero_desktop h-[500px] bg-cover bg-center bg-no-repeat text-cream w-full rounded-lg`}
