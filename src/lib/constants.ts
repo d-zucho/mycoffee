@@ -144,3 +144,101 @@ export const headquarters: THeadquarter[] = [
     phone: '+44 20 3970 1287',
   },
 ]
+
+export const CUSTOM_OPTIONS = [
+  {
+    question: 'How do you drink your coffee?',
+    options: [
+      {
+        label: 'Capsule',
+        description: 'Compatible with Nespresso systems and similar brewers',
+      },
+      {
+        label: 'Filter',
+        description:
+          'For pour over or drip methods like Aeropress, Chemex, and V60',
+      },
+      {
+        label: 'Espresso',
+        description:
+          'Dense and finely ground beans for an intense, flavorful experience',
+      },
+    ],
+  },
+  {
+    question: 'What type of coffee?',
+    options: [
+      {
+        label: 'Single Origin',
+        description:
+          'Distinct, high quality coffee from a specific family-owned farm',
+      },
+      {
+        label: 'Decaf',
+        description:
+          'Just like regular coffee, except the caffeine has been removed',
+      },
+      {
+        label: 'Blended',
+        description:
+          'Combination of two or three dark roasted beans of organic coffees',
+      },
+    ],
+  },
+  {
+    question: 'How much would you like?',
+    options: [
+      {
+        label: '250g',
+        description:
+          'Perfect for the solo drinker. Yields about 12 delicious cups.',
+      },
+      {
+        label: '500g',
+        description:
+          'Perfect option for a couple. Yields about 40 delectable cups.',
+      },
+      {
+        label: '1000g',
+        description:
+          'Perfect for offices and events. Yields about 90 delightful cups.',
+      },
+    ],
+  },
+  {
+    question: 'Want us to grind them?',
+    options: [
+      {
+        label: 'Wholebean',
+        description: 'Best choice if you cherish the full sensory experience',
+      },
+      {
+        label: 'Filter',
+        description:
+          'For drip or pour-over coffee methods such as V60 or Aeropress',
+      },
+      {
+        label: 'Cafetiére',
+        description:
+          'Course ground beans specially suited for french press coffee',
+      },
+    ],
+  },
+  {
+    question: 'How often should we deliver?',
+    options: [
+      {
+        label: 'Every week',
+        description: '$14.00 per shipment. Includes free first-class shipping.',
+      },
+      {
+        label: 'Every 2 weeks',
+        description: '$17.25 per shipment. Includes free priority shipping.',
+      },
+      {
+        label: 'Every month',
+        description: '$22.50 per shipment. Includes free priority shipping.',
+      },
+    ],
+  },
+]

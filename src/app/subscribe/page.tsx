@@ -4,6 +4,7 @@ import PlanHero from './PlanHero'
 import HowItWorks from '@/components/howitworks/HowItWorks'
 import { TStep } from '@/lib/types'
 import PlanSteps from './PlanSteps'
+import Customize from './Customize'
 
 type Props = {
   steps: TStep[]
@@ -18,6 +19,7 @@ const page = ({ steps }: Props) => {
     <div className='w-full min-h-screen'>
       <PlanHero />
       <PlanSteps />
+      <Customize />
     </div>
   )
 }

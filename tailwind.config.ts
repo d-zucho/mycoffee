@@ -26,6 +26,7 @@ const config = {
         cream: '#fefcf7',
         mygray: '#83888f',
         buttonhover: '#66d2cf',
+        optionbg: '#F4F1EB',
         border: 'hsl(var(--border))',
         input: 'hsl(var(--input))',
         ring: 'hsl(var(--ring))',
