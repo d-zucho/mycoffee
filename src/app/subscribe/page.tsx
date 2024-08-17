@@ -1,9 +1,8 @@
-import SharedHero from '@/components/hero/index'
-import React from 'react'
+'use client'
 import PlanHero from './PlanHero'
-import HowItWorks from '@/components/howitworks/HowItWorks'
 import { TStep } from '@/lib/types'
 import PlanSteps from './PlanSteps'
+import MyAccordion from '@/components/MyAccordion'
 import Customize from './Customize'
 
 type Props = {

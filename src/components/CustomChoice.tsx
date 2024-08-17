@@ -25,7 +25,7 @@ const CustomChoice = (props: Props) => {
                   aria-label='Toggle bold'
                   className='w-fit h-[300px] bg-optionbg'
                 >
-                  <h3 className='text-header-3'>Option 1</h3>
+                  <h3 className='text-header-3'>Option sdfsdf1</h3>
                 </ToggleGroupItem>
                 <ToggleGroupItem
                   value='italic'

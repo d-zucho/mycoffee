@@ -148,6 +148,7 @@ export const headquarters: THeadquarter[] = [
 export const CUSTOM_OPTIONS = [
   {
     question: 'How do you drink your coffee?',
+    value: 'how-drink',
     options: [
       {
         label: 'Capsule',
@@ -167,6 +168,7 @@ export const CUSTOM_OPTIONS = [
   },
   {
     question: 'What type of coffee?',
+    value: 'coffee-type',
     options: [
       {
         label: 'Single Origin',
@@ -187,6 +189,7 @@ export const CUSTOM_OPTIONS = [
   },
   {
     question: 'How much would you like?',
+    value: 'quantity',
     options: [
       {
         label: '250g',
@@ -207,6 +210,7 @@ export const CUSTOM_OPTIONS = [
   },
   {
     question: 'Want us to grind them?',
+    value: 'grind',
     options: [
       {
         label: 'Wholebean',
@@ -226,6 +230,7 @@ export const CUSTOM_OPTIONS = [
   },
   {
     question: 'How often should we deliver?',
+    value: 'delivery',
     options: [
       {
         label: 'Every week',

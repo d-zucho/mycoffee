@@ -12,41 +12,35 @@ type Props = {
   question: string
   index: number
   options: Array<{ label: string; description: string }>
-  handleQuestionChange: (question: any) => void
+  handleQuestionChange?: (question: any) => void
+  choice: string
 }
 
 const Question = ({
   question,
   options,
   index,
+  choice,
   handleQuestionChange,
 }: Props) => {
   const [questionIndex, setQuestionIndex] = React.useState<string>('0')
   const newIndex = `${index}`
 
   return (
-    <Accordion
-      type='multiple'
-      onValueChange={(value) => handleQuestionChange(value)}
-    >
-      <AccordionItem value={newIndex} onClick={handleQuestionChange}>
-        <AccordionTrigger className='text-3xl text-mygray'>
-          {question}
-        </AccordionTrigger>
-        <AccordionContent>
-          <ToggleGroup
-            type='single'
-            className='flex flex-col md:flex-row gap-4 items-center '
-          >
-            {options.map((item, index) => (
-              <div className='flex' key={index}>
-                <Option {...item} />
-              </div>
-            ))}
-          </ToggleGroup>
-        </AccordionContent>
-      </AccordionItem>
-    </Accordion>
+    <div onClick={handleQuestionChange}>
+      <span className='text-3xl text-mygray'>{question}</span>
+      <div>
+        <ToggleGroup
+          type='single'
+          className='flex flex-col md:flex-row gap-4 items-center'
+        >
+          {options.map((item, index) => (
+            // <div className='flex' key={index}>
+            <Option key={index} {...item} />
+          ))}
+        </ToggleGroup>
+      </div>
+    </div>
   )
 }
 
